@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    bootstrap="vendor/autoload.php"
+    colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./Tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name = "APP_ENV"           value = "testing" />
+        <const name = "BCRYPT_ROUNDS"     value = "4"       />
+        <const name = "CACHE_DRIVER"      value = "array"   />
+        <const name = "MAIL_MAILER"       value = "array"   />
+        <const name = "QUEUE_CONNECTION"  value = "sync"    />
+        <const name = "SESSION_DRIVER"    value = "array"   />
+        <const name = "TELESCOPE_ENABLED" value = "false"   />
+    </php>
+</phpunit>
