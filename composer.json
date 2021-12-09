@@ -1,9 +1,10 @@
 {
     "name": "harbii/guzzle-php-unit",
-    "type": "template",
+    "type": "project",
     "keywords": [ "phpunit" , "guzzle" , "php" ],
     "license": "MIT",
     "require": {
+        "php": ">=7.4",
         "phpunit/phpunit": "^9.5",
         "guzzlehttp/guzzle": "^7.4"
     },
