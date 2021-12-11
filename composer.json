@@ -1,6 +1,6 @@
 {
     "name": "harbii/guzzle-php-unit",
-    "type": "template",
+    "type": "project",
     "keywords": [ "phpunit" , "guzzle" , "php" ],
     "license": "MIT",
     "require": {
