@@ -13,12 +13,7 @@
         </testsuite>
     </testsuites>
     <php>
-        <const name = "APP_ENV"           value = "testing" />
-        <const name = "BCRYPT_ROUNDS"     value = "4"       />
-        <const name = "CACHE_DRIVER"      value = "array"   />
-        <const name = "MAIL_MAILER"       value = "array"   />
-        <const name = "QUEUE_CONNECTION"  value = "sync"    />
-        <const name = "SESSION_DRIVER"    value = "array"   />
-        <const name = "TELESCOPE_ENABLED" value = "false"   />
+        <const name = "APP_ENV" value = "testing"               />
+        <const name = "BASE_URI" value = "http://localhost:8083" />
     </php>
 </phpunit>
